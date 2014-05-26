@@ -3,3 +3,11 @@ Git 版本库的学习
 时光机穿梭：
 修改一下这个文件。
 版本回退。
+总结一下，目前学到的命令有：
+git add
+git commit
+git status
+git diff
+git log
+git relog
+git reset --hard
