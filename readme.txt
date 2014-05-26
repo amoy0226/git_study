@@ -18,3 +18,8 @@ git reset --hard
 工作区内容修改的回退：git checkout -- readme.txt
 已加入暂存区的内容修改回退需要先：git reset HEAD readme.txt,再进行上面的工作区撤销
 已经提交了的只能进行版本回退了
+同步到github远程库，先总结下：
+ git remote add origin https://github.com/amoy0226/git_study.git进行关联
+ git push -u origin master进行第一次推送master分支到远程库
+ git push origin master以后本地提交后，使用这个命令更新到远程库
+ 
