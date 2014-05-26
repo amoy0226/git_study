@@ -11,3 +11,4 @@ git diff
 git log
 git relog
 git reset --hard
+继续，工作区和暂存区的学习
