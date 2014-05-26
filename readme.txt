@@ -22,4 +22,7 @@ git reset --hard
  git remote add origin https://github.com/amoy0226/git_study.git进行关联
  git push -u origin master进行第一次推送master分支到远程库
  git push origin master以后本地提交后，使用这个命令更新到远程库
- 
+从github远程库克隆到本地，总结下：
+ github创建远程库gybzpxt
+ git bash定位到本地目录，使用git clone git@github.com:amoy0226/gybzpxt.git命令克隆到本地
+ 会在本地生成gybzpxt目录，同步成功
