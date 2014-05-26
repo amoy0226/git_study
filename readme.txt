@@ -14,3 +14,7 @@ git reset --hard
 继续，工作区和暂存区的学习
 再做一个修改
 再来一个
+再总结一下：
+工作区内容修改的回退：git checkout -- readme.txt
+已加入暂存区的内容修改回退需要先：git reset HEAD readme.txt,再进行上面的工作区撤销
+已经提交了的只能进行版本回退了
