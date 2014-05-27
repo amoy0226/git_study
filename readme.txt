@@ -27,3 +27,4 @@ git reset --hard
  git bash定位到本地目录，使用git clone git@github.com:amoy0226/gybzpxt.git命令克隆到本地
  会在本地生成gybzpxt目录，同步成功
  这是master分支
+ 快进模式合并分支
