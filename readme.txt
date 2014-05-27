@@ -26,4 +26,8 @@ git reset --hard
  github创建远程库gybzpxt
  git bash定位到本地目录，使用git clone git@github.com:amoy0226/gybzpxt.git命令克隆到本地
  会在本地生成gybzpxt目录，同步成功
+<<<<<<< HEAD
  这是master分支
+=======
+ git checkout -b dev增加并切换到dev分支
+>>>>>>> dev
