@@ -55,3 +55,4 @@ dev分支的工作进行到一半，master上有个bug要修复
 	git stash apply stash@{stashnumber} 来恢复现场
 	git stash drop 删除现场
 	bug修复，功能增加都应该通过新建分支来完成，然后再合并
+shrimp对dev分支进行了修改
