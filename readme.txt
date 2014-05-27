@@ -37,3 +37,4 @@ git reset --hard
  快进模式合并分支
 >>>>>>> dev
 快进模式合并分支dev1
+master分支中添加的修改
