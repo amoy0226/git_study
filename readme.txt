@@ -44,3 +44,4 @@ master分支中添加的修改
 >>>>>>> feature1
 分支合并
 创建并切换dev分支
+dev分支的工作进行到一半，master上有个bug要修复
