@@ -37,4 +37,9 @@ git reset --hard
  快进模式合并分支
 >>>>>>> dev
 快进模式合并分支dev1
+<<<<<<< HEAD
 master分支中添加的修改
+=======
+增加新分支feature1
+>>>>>>> feature1
+分支合并
