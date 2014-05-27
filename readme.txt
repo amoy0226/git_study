@@ -45,3 +45,13 @@ master分支中添加的修改
 分支合并
 创建并切换dev分支
 dev分支的工作进行到一半，master上有个bug要修复
+做个总结吧：
+	git branch 用于新建分支（-d删除，-D强制删除）
+	git checkout 用于切换分支
+	git merge 将指定分支合并到当前分支
+	git metge --no-ff -m "说明" dev 合并分支，并不采取fast forward模式
+	git stash 用于暂时保存工作现场
+	git stash list 显示暂存的工作现场
+	git stash apply stash@{stashnumber} 来恢复现场
+	git stash drop 删除现场
+	bug修复，功能增加都应该通过新建分支来完成，然后再合并
