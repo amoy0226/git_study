@@ -61,3 +61,10 @@ shrimp对dev分支进行了修改
 otherpeople对dev分支进行了修改
 >>>>>>> cbafdb574bfc2e26809bedff75ea21fc9ce6e1e7
 解决冲突
+总结下多人协作：
+	git remote -v 查看远程库信息
+	git push origin branch-name 向远程库推送分支
+	git pull 抓取远程的最新提交,如果有冲突，需要先解决冲突
+	git checkout -b branch-name origin/branch-name 在本地创建与远程对应的分支
+	如果抓取失败，需要先建立本地分支和远程分支的关联 git branch --set-upstream branch-name origin/branch-name
+	
