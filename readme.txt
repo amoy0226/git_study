@@ -45,3 +45,11 @@ master分支中添加的修改
 分支合并
 创建并切换dev分支
 修复bug
+学了标签的使用，总结下：
+	git tag tagname 创建标签
+	git tag tagname logid 创建指定提交上的标签
+	git tag -d tagname 删除本地标签
+	git push origin :refs/tags/taaname 删除远程库标签
+	git push origin tagname 提交标签到远程库
+	git push origin --tags 提交所有未提交标签
+	
